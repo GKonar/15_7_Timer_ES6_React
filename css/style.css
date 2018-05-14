@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext");
+* { margin: 0 auto; box-sizing: border-box; font-family: 'Lato', sans-serif; }
+
+body { background-image: url("https://images.pexels.com/photos/767239/pexels-photo-767239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"); background-position: center; background-attachment: fixed; background-repeat: no-repeat; background-size: 100%; text-align: center; }
+
+body .controls { border-top-left-radius: 5px; border-top-right-radius: 5px; margin-top: 200px; max-width: 500px; text-align: center; background-color: #3498db; opacity: 0.7; }
+
+body .controls a { text-decoration: none; color: #2f3640; font-size: 30px; font-weight: 700; word-spacing: 15px; padding: 7px; }
+
+body .controls a:hover { cursor: pointer; text-decoration: underline; }
+
+.stopwatch { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-bottom: 5px; color: #192a56; letter-spacing: 5px; font-size: 50px; text-align: center; background-color: #3498db; opacity: 0.7; max-width: 500px; }
+
+li { text-align: center; list-style-type: none; background-color: none; position: relative; right: 20px; font-weight: 700; font-size: 25px; }
